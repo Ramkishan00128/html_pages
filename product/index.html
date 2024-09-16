@@ -1,0 +1,689 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aurum 79</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+
+    <!-- Font Awesome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Topbar -->
+    <header class="bg-dark ">
+        <div class="text-white p-2 mx-5 d-flex flex-sm-row justify-content-between align-items-center">
+            <div>
+                <span class="me-3">📞 +1234567890</span> | <span class="ms-3">✉️ info@aurum.com</span>
+            </div>
+            <div class="social-icons d-flex">
+                <a href="#" class="social-icon">
+                    <i class="fab fa-facebook-f"></i>
+                </a>
+                <a href="#" class="social-icon">
+                    <i class="fab fa-twitter"></i>
+                </a>
+                <a href="#" class="social-icon">
+                    <i class="fab fa-linkedin-in"></i>
+                </a>
+            </div>
+
+        </div>
+
+    </header>
+
+
+
+<nav class="navbar navbar-expand-lg navbar-light bg-white">
+    <div class="container-fluid mx-5 d-flex justify-content-between align-items-center">
+        <!-- Logo -->
+        <a class="navbar-brand" href="#">
+            <img src="../assets/images/aurum79.svg" alt="Aurum 79" width="100" class="img-fluid navbar-logo">
+        </a>
+
+        <!-- Toggler Button (for mobile view) -->
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Navbar Links and Menu -->
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <!-- Home -->
+                <li class="nav-item">
+                    <a class="nav-link" href="/Home/index.html">Home</a>
+                </li>
+
+                <!-- About Us -->
+                <li class="nav-item">
+                    <a class="nav-link" href="/About/index.html">About Us</a>
+                </li>
+
+                <!-- Products Dropdown -->
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="/product/index.html" id="navbarDropdownProducts"
+                        role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Products
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownProducts">
+                        <li><a class="dropdown-item" href="/product/index.html#Responsible_gold">Responsible gold</a>
+                        </li>
+                        <li><a class="dropdown-item" href="/product/index.html#Kugerrands">Kugerrands</a></li>
+                        <li><a class="dropdown-item" href="/product/index.html#Minted_Bars">Minted Bars</a></li>
+                        <li><a class="dropdown-item" href="/product/index.html#Cast_Bars">Cast Bars - Gold </a></li>
+                        <li><a class="dropdown-item" href="/product/index.html#Bar_Weighting">Bar Weighting ≤ 1kg </a>
+                        </li>
+                        <li><a class="dropdown-item" href="/product/index.html#Coin_Blanks ">Coin Blanks </a></li>
+                        <li><a class="dropdown-item" href="/product/index.html#Coins_and_Medallions">Coins and
+                                Medallions </a></li>
+                        <li><a class="dropdown-item" href="/product/index.html#Semi-Finished">Semi-Finished </a></li>
+                    </ul>
+                </li>
+
+                <!-- Services Dropdown -->
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="/service/index.html" id="navbarDropdownServices"
+                        role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Services
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownServices">
+                        <li><a class="dropdown-item" href="/service/index.html#Sourcing">Sourcing</a></li>
+                        <li><a class="dropdown-item" href="/service/index.html#Refining">Refining</a></li>
+                        <li><a class="dropdown-item" href="/service/index.html#Smelting">Smelting</a></li>
+                        <li><a class="dropdown-item" href="/service/index.html#Fabrication">Fabrication</a></li>
+                        <li><a class="dropdown-item" href="/service/index.html#Value-Added_Products">Value-Added
+                                Products</a></li>
+                        <li><a class="dropdown-item" href="/service/index.html#Technical_Service">Technical Service</a>
+                        </li>
+                        <li><a class="dropdown-item" href="/service/index.html#Vault_and_Logistics">Vault and
+                                Logistics</a></li>
+                    </ul>
+                </li>
+
+                <!-- Customer Service Dropdown -->
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="/customer/index.html" id="navbarDropdownCustomer"
+                        role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Customer
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownCustomer">
+                        <li><a class="dropdown-item" href="/customer/index.html#Partnership">Partnership</a></li>
+                        <li><a class="dropdown-item" href="/customer/index.html#Application">Application</a></li>
+                        <li><a class="dropdown-item" href="/customer/index.html#Gold_Requirement">Gold Requirement</a>
+                        </li>
+                        <li><a class="dropdown-item" href="/customer/index.html#Customer_Feedback">Customer Feedback</a>
+                        </li>
+                        <li><a class="dropdown-item" href="/customer/index.html#Useful_Links">Useful Links</a></li>
+                        <li><a class="dropdown-item" href="/customer/index.html#Retails_Sales_Pricing">Retails Sales
+                                Pricing</a></li>
+                        <li><a class="dropdown-item" href="/customer/index.html#Glossary Of Terms">Glossary Of Terms</a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+
+            <!-- Connect With Us Button -->
+            <a class="btn btn-black text-white ms-3" href="/contact/index.html">Connect With Us</a>
+        </div>
+    </div>
+</nav>
+
+    <section class="bg-container">
+        <div class="container py-5">
+            <div class="row align-items-center">
+                <div class="col-md-7">
+                    <h1 class="text-Color" id="Responsible_gold">Responsible Gold</h1>
+                    <p class="gold-description">
+                        Rand Refinery is committed to internationally accepted responsible sourcing practices and as such is in
+                        conformance with the LBMA Responsible Gold & Silver Guidance and the OECD Due Diligence Guidance for
+                        Responsible Supply Chains of Minerals from Conflict-Affected and High Risk Areas.
+                    </p>
+                    <p class="gold-description">
+                        Not only do we ensure we meet the strictest standards we set for ourselves, our certified gold & silver
+                        chain-of-custody is independently audited to heed to the requirements set by independent bodies and
+                        recently enacted legislation:
+                    </p>
+                    <p class="gold-description">
+                        Having co-operated and continuing to do so, Rand Refinery works very closely with many of these entities
+                        to ensure that our processes and systems are set up with continuous improvement. Doing so will ensure
+                        that ongoing certification is achieved.
+                    </p>
+                </div>
+                <div class="col-md-5 text-center">
+                    <img src="../assets/images/Gold-Brick.png" class="gold-image img-fluid"
+                        alt="Gold Bars">
+                </div>
+            </div>
+        
+            <!-- <div class="row mt-4">
+                <div class="col-md-6">
+                    <div class="bg-light p-4 rounded">
+                        <h4 class="gold-heading">Certified Gold</h4>
+                        <p class="gold-description">
+                            Certified Gold adheres to the Responsible Gold policy & guarantees that all gold was mined in an
+                            eco-friendly manner and not recycled from scrap or other secondary, untraceable sources. It ensures
+                            that the chain of custody through refining can be traced back to its origin.
+                        </p>
+                    </div>
+                </div>
+            </div> -->
+
+            <div class="row mt-4 justify-content-center justify-content-md-end">
+                <div class="col-md-5">
+                    <div class="bg-light p-4 rounded">
+                        <h4 class="text-Color">Certified Gold</h4>
+                        <p class="gold-description">
+                            Certified Gold adheres to the Responsible Gold policy & guarantees that all gold was mined in an
+                            eco-friendly manner and not recycled from scrap or other secondary, untraceable sources. It ensures
+                            that the chain of custody through refining can be traced back to its origin.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            </div>
+
+    </section>
+   
+    <section class="bg-container-2">
+        <div class="container py-5">
+            <div class="row align-items-center">
+                <div class="col-md-7 text-white">
+                    <h1 class="text-Color" id="Kugerrands">Investment in
+                    Krugerrands Gold</h1>
+                    <p class="gold-description">
+                        Locally respected and internationally acclaimed, the Krugerrand is the most widely held and actively traded bullion coin
+                        in the world with over 60 million ounces sold over the last 50 years. A brainchild of the Chamber of Mines in South
+                        African in 1967 and produced by Rand Refinery and the SA Mint, the Krugerrand tells a powerful story of resilience over
+                        time and promises investors an attractive return.
+                    </p>
+                    <h5 class="text-Color">
+                        Why consider investing in Krugerrand?
+                    </h5>
+                    <p class="gold-description">
+                    Why consider investing in Krugerrand? The Krugerrand is made from 22 carat gold, 9167 of pure gold and 833 parts copper.
+                    The alloy with copper ensures that the coins are not easily scratched or defaced, thereby protecting their value and
+                    tradability. The Krugerrand is the only legal tender bullion coin with its face value denominated in ounces of pure
+                    gold, therefore it is guaranteed that the South African Reserve Bank will purchase any tendered Krugerrand at the ruling
+                    price of gold on the day.
+                    </p>
+                </div>
+                <div class="col-md-5 text-center">
+                    <img src="../assets/images/bold plate.jpg" class="gold-image img-fluid" alt="Gold Bars">
+                </div>
+            </div>
+    
+         
+    
+    
+        </div>
+    
+    </section>
+
+    <!-- <section class="bg-container-3">
+        <div class="container py-5">
+            <div class="row align-items-center">
+                <div class="col-md-7 text-white">
+                    <h1 class="text-Color">Investment in
+                        Krugerrands Gold</h1>
+                    <p class="gold-description">
+                        Locally respected and internationally acclaimed, the Krugerrand is the most widely held and actively
+                        traded bullion coin
+                        in the world with over 60 million ounces sold over the last 50 years. A brainchild of the Chamber of
+                        Mines in South
+                        African in 1967 and produced by Rand Refinery and the SA Mint, the Krugerrand tells a powerful story
+                        of resilience over
+                        time and promises investors an attractive return.
+                    </p>
+                    <h5 class="text-Color">
+                        Why consider investing in Krugerrand?
+                    </h5>
+                    <p class="gold-description">
+                        Why consider investing in Krugerrand? The Krugerrand is made from 22 carat gold, 9167 of pure gold
+                        and 833 parts copper.
+                        The alloy with copper ensures that the coins are not easily scratched or defaced, thereby protecting
+                        their value and
+                        tradability. The Krugerrand is the only legal tender bullion coin with its face value denominated in
+                        ounces of pure
+                        gold, therefore it is guaranteed that the South African Reserve Bank will purchase any tendered
+                        Krugerrand at the ruling
+                        price of gold on the day.
+                    </p>
+                </div>
+               
+            </div>
+
+            
+
+    
+    
+    
+    
+        </div>
+    
+    </section> -->
+
+<section class="bg-container-3">
+    <div class="container py-5">
+        <div class="row">
+            <!-- Left Section -->
+            <div class="col-md-6 left-section">
+                <h1 class="text-Color" id="Minted_Bars">Minted Bars</h1>
+                <p class="gold-description">
+                    We have refined our brand, purifying it to create a new identity while being instantly recognisable as a
+                    symbol of quality, simplicity, and integrity.
+                </p>
+                <p class="gold-description">
+                    Rand Refinery acts as agent for selected gold producers in the refining, marketing, and sale of their
+                    gold production. In so doing, we have liaison arrangements with Members of the LBMA in London for the
+                    sale and distribution of gold refined by Rand Refinery into Value Added Products.
+                </p>
+                <p class="gold-description">
+                    With a recent change in legislation, South Africans are now able to invest in minted bars. Minted bars
+                    are however only available in 10g, 50g, and 100g gold and 1oz silver to the South African market:
+                </p>
+            </div>
+    
+            <!-- Right Section (Advertisement / Highlight Section) -->
+            <div class="col-md-6 right-section text-center">
+                <div class="bar-details">
+                    <span style="background: #fad804;padding: 2px;margin-right: 4px;">2.0g  </span>
+                    <span style="background: #fff;padding: 2px;margin-right: 4px; ">5g  </span>
+                    <span style="background: #fff;padding: 2px;margin-right: 4px;">10g  </span>
+                    <span style="background: #fff;padding: 2px;margin-right: 4px;">20g  </span>
+                    <span style="background: #fff;padding: 2px;margin-right: 4px;">1oz  </span>
+                    <!-- <span style="background-: #fff;padding: 1px;"></span>>5g </span>
+                    <span style="background: #fff;padding: 2px;"></span>>10g  </span>
+                    <span style="background: #fff;padding: 2px;"></span>> 20g  </span>
+                    <span style="background: #fff;padding: 2px;"></span>> 1oz</span> -->
+                        
+                </div>
+                <div  style="background: #fad804; margin-md-left: 10rem; margin-md-right: 10rem;">
+                    Fineness – 999.9 <br>
+                    Dimensions (mm) – 19 X 11.4 X 0.49
+                </div>
+                <!-- <img src="https://via.placeholder.com/300x200.png?text=Gold+Bars+Image" alt="Gold Bars"> -->
+            </div>
+        </div>
+    </div>
+    </section>
+
+    <!-- <section class="bg-container-4"> -->
+        
+    <div class="container-fluid bg-black">
+        <div class="background-section">
+            <!-- Overlay -->
+            <div class="background-overlay"></div>
+    
+            <!-- Content -->
+            <div class="content-wrapper container " style="margin-top: 7rem;">
+                <div class="row " >
+                    <!-- Left Section: Good Delivery Gold Bars -->
+                    <div class="col-md-6">
+                        <h1>Good Delivery</h1>
+                        <p>Like their cousins, Good Delivery Gold Bars, Good Delivery Silver Bars are the internationally
+                            accepted trading standard used by silver dealers, traders, and bullion banks around the world to
+                            trade and deal in silver. Rand Refinery’s 1000 troy ounce silver bars have had good delivery
+                            status on the London Metal Exchange since inception of silver accreditation.</p>
+                        <div class="metal-details">
+                            1000 ounce <br>
+                            Fineness – > 999.0 <br>
+                            Serial Numbers – As per London Metal Exchange specifications
+                        </div>
+                    </div>
+    
+                    <!-- Right Section: Silver Bars -->
+                    <div class="col-md-6">
+                        <h1>Silver Bars</h1>
+                        <p>Like their cousins, Good Delivery Gold Bars, Good Delivery Silver Bars are the internationally
+                            accepted trading standard used by silver dealers, traders and bullion banks around the world to
+                            trade and deal in silver. Rand Refinery’s 1000 troy ounce silver bars have had good delivery
+                            status on the London Metal Exchange since inception of silver accreditation.</p>
+    
+                        <!-- <div class="d-flex justify-content-center">
+                            <img src="https://via.placeholder.com/100x100.png?text=Coin+1" alt="Coin 1" class="coin-image">
+                            <img src="https://via.placeholder.com/100x100.png?text=Coin+2" alt="Coin 2" class="coin-image">
+                            <img src="https://via.placeholder.com/100x100.png?text=Coin+3" alt="Coin 3" class="coin-image">
+                            <img src="https://via.placeholder.com/100x100.png?text=Coin+4" alt="Coin 4" class="coin-image">
+                        </div> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+   
+    <section class="bg-container-4">
+        <div class="container py-5">
+            <div class="row">
+                <!-- Left Section -->
+                <div class="col-md-6 left-section">
+                    <h1 class="text-Color" id="Cast_Bars">Cast Bars</h1>
+                    <p class="gold-description">
+                        Good Delivery Gold Bars are the internationally accepted trading standard used by gold dealers, traders and bullion
+                        banks around the world to trade and deal in gold.
+                    </p>
+                    <h5 class="text-Color">
+                        History and Accreditation
+                    </h5>
+                    <p class="gold-description">
+                        As an LBMA accredited London Good Delivery supplier, Rand Refinery has produced 400 troy ounce bars (also known as LGD
+                        bars), since inception.The refinery’s 100 troy ounce cast bars also have good delivery status on the New York
+                        Mercantile Exchange (Comex Division) since 1974 and the 1000 gram bars on the Tokyo Commodity Exchange (Tocom) since
+                        1993.
+                    </p>
+                </div>
+    
+                <!-- Right Section (Advertisement / Highlight Section) -->
+                <div class="col-md-6 right-section text-center">
+                    <div class="bar-details">
+                        <span style="background: #fad804;padding: 2px;margin-right: 4px;">100 ounce </span>
+                        <span style="background: #fff;padding: 2px;margin-right: 4px; ">400 ounce </span>
+                        <span style="background: #fff;padding: 2px;margin-right: 4px;">1000 g</span>
+                        <span style="background: #fff;padding: 2px;margin-right: 4px;">100g </span>
+                   
+    
+                    </div>
+                    <div style="background: #fad804; margin-md-left: 10rem; margin-md-right: 10rem;">
+                        Fineness – 999.9 <br>
+                        Dimensions (mm) – 19 X 11.4 X 0.49
+                    </div>
+                    <!-- <img src="https://via.placeholder.com/300x200.png?text=Gold+Bars+Image" alt="Gold Bars"> -->
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="bg-container-2">
+        <div class="container py-5">
+            <div class="row align-items-center">
+                <div class="col-md-7 text-white">
+                    <h1 class="text-Color" id="Bar_Weighting">Bars Weighing One
+                    Kilogram and Less</h1>
+                    <p class="gold-description">
+                    The company also manufactures and markets other standard cast gold bars with the official stamp of Rand Refinery, namely
+                    the 1000 gram bars. The weight specifications for the different markets are as follows:
+                    </p>
+                    <!-- <h5 class="text-Color">
+                        Why consider investing in Krugerrand?
+                    </h5> -->
+                    <ul class="text-Color">
+                        <li>India – 1000gm bars of 99,50 purity, 100gm bars of 99.90 purity</li>
+                        <li>India – 1000gm bars of 99,50 purity, 100gm bars of 99.90 purity</li>
+                        <li>India – 1000gm bars of 99,50 purity, 100gm bars of 99.90 purity</li>
+                        <li>India – 1000gm bars of 99,50 purity, 100gm bars of 99.90 purity</li>
+                        <li>India – 1000gm bars of 99,50 purity, 100gm bars of 99.90 purity</li>
+                    </ul>
+                    <p class="gold-description">
+                    Since 1994, Rand Refinery has become a major supplier of kilobars into the world markets in direct response to changing
+                    demand patterns.
+                    </p>
+                </div>
+                <div class="col-md-5 text-center">
+                    <img src="../assets/images/gold_brick_onebyone.png" class="gold-image img-fluid" alt="Gold Bars">
+                </div>
+            </div>
+    
+    
+    
+    
+        </div>
+    
+    </section>
+
+    <section class="bg-container-5">
+        <div class="container py-5">
+            <div class="row align-items-center">
+                <div class="col-md-7 text-black">
+                    <h1 class="text-Color" id="Coin_Blanks">Coin Blanks</h1>
+                    <p class="gold-description">
+                        Refined gold, cast into strips, is rolled and punched into coin blanks which are individually weighed to ensure that
+                        each blank contains the amount of gold requested and checked to ascertain that it conforms to the size i.e. diameter and
+                        thickness ordered. Orders for coin blanks usually come from mints around the world. The South African Mint is also a
+                        customer of Rand Refinery – see The South African Mint.
+                    </p>
+                   
+                    <p class="gold-description">
+                    Coin blanks can be supplied in a certified alloy range of 9ct, 14ct, 18ct, 22ct and 24ct (9999’s) as well as 999 purity
+                    silver.
+                    </p>
+                    <p class="gold-description">
+                        All coin blanks are produced from responsible gold.
+                    </p>
+                    <p class="gold-description">
+                        Other diameters can be quoted for on request.
+                    </p>
+                    
+                </div>
+                
+            </div>
+    
+    
+    
+    
+        </div>
+    
+    </section>
+
+    <section class="bg-container-6">
+        <div class="container py-5">
+            <div class="row align-items-center">
+                <div class="col-md-7 text-black">
+                    <h1 class="text-Color" id="Coins_and_Medallions">Coins and Medallions</h1>
+                    <p class="gold-description">
+                        We have refined our brand, purifying it to create a new identity while being instantly recognisable as a symbol of
+                        quality, simplicity and integrity.
+                    </p>
+                   
+                    <p class="gold-description">
+                        Rand Refinery produces a range of coins and medallions for private investors to purchase via coin dealers. Coins in
+                        which contain a minimum of 99.5% fine gold are appropriate for private investors wishing to buy small amounts of pure
+                        gold. In many countries, including all member states of the European Union, gold purchased for investment purposes is
+                        exempt from VAT.
+                    </p>
+                </div>
+                <div class="col-md-5 text-center">
+                    <img src="../assets/images/golden_double_brick.png" class="gold-image img-fluid" alt="Gold Bars">
+                </div>
+            </div>
+    
+    
+    
+    
+        </div>
+    
+    </section>
+
+    <section class="bg-container-7">
+        <div class="container py-5">
+            <div class="row align-items-center">
+                <div class="col-md-7 text-white">
+                    <h1 class="text-white" id="Semi-Finished">Semi-Finished Metal
+                    Product</h1>
+                    <p class="gold-description">
+                        Rand Refinery produces a range of gold and silver semi-fabricated products in the form of wire and granules. The company
+                        – through its state of the art laboratory – also provides metallurgical advice and analytical services to the jewellery
+                        industry.
+                    </p>
+    
+                    <p class="gold-description">
+                    Rand Refinery produces gold carat alloys in grain form and sterling silver for the jewellery manufacturing industry. 
+                    These granules are much easier to work with as they are easier to melt and can also be sold in varying smaller
+                    quantities as required by the fabricators.
+                    </p>
+                    <p class="gold-description">
+                        All gold semi-finished product is produced from responsible gold.
+                    </p>
+                </div>
+                <div class="col-md-5 text-center">
+                    <img src="../assets/images/gold metal.png" class="gold-image img-fluid" alt="Gold Bars">
+                </div>
+            </div>
+    
+    
+    
+    
+        </div>
+    
+    </section>
+
+    <section class="bg-container-3 ">
+        
+        <div class="container py-5">
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <h1 class="text-Color">Semi-Finished Metal
+                    Product</h1></div>
+                <div class="col-md-6">Rand Refinery has both the expertise and leading-edge technology to be able to offer customised product development for
+                a range of our customers.</div>
+            </div>
+            
+            <div class="row align-items-center">
+
+
+                
+                <div class="col-md-7 ">
+                    
+                    <p class="gold-description">
+                   <strong>Our Accreditation :</strong>  We are accredited by various metal exchanges across the globe and are one of only five international
+                    LBMA referees, the only one of its kind in the Southern Hemisphere. We have also been appointed by the World Gold
+                    Council to the Responsible Gold Standards Committee. Our high standing in the global gold market makes Rand Refinery a
+                    trusted partner in the design, development and supply of gold and silver products. The Custom Services We Offer to Our
+                    Clients:
+                    </p>
+    
+                    <p class="gold-description">
+                        <strong>Banks:</strong>  We recast old gold bars according to updated specifications from the LBMA.
+                    </p>
+                    <p class="gold-description">
+                        <strong>Major Bullion Banks:</strong> We produce cast bars of various dimensions and purity according to customer specifications.
+                    </p>
+                    <p class="gold-description">
+                       <strong>Commercial Banks:</strong>  Minted bars of various dimensions and purity are produced, tailored to the customer’s requirements.
+                    </p>
+                    <p class="gold-description">
+                    <strong>National mints:</strong>  We produce coin blanks of various sizes and purity according to specification.
+                    </p>
+                    <p>
+                       <strong>Metal laboratories:</strong> Our proof gold wire is used in many laboratories as the benchmark for purity when testing the
+                        quality of assays.
+                    </p>
+                    <p>If your requirements are similar to any of the above, please contact us and we can discuss how best to meet your
+                    requirements.</p>
+                
+                </div>
+                
+            </div>
+    
+    
+    
+    
+        </div>
+    
+    </section>
+
+
+
+    <!-- </section> -->
+
+
+
+   
+
+    <footer class="footer bg-dark text-light py-5">
+        <div class="container">
+            <div class="row">
+                <!-- About Section -->
+                <div class="col-md-3 mb-4">
+                    <h5 class="text-uppercase">About AURUM 79</h5>
+                    <p class="text-muted">Aurum79 Refinery offers a seamless and secure gold trading experience. Whether
+                        you
+                        are looking to buy or sell gold, you can trust us to handle the insurance and logistics aspects
+                        with
+                        utmost professionalism.</p>
+                </div>
+
+                <!-- Useful Links -->
+                <div class="col-md-3 mb-4">
+                    <h5 class="text-uppercase">Useful Links</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#" class="text-muted">Home</a></li>
+                        <li><a href="#" class="text-muted">About Us</a></li>
+                        <li><a href="#" class="text-muted">Services</a></li>
+                        <li><a href="#" class="text-muted">Supply Chain</a></li>
+                        <li><a href="#" class="text-muted">Investor Information</a></li>
+                        <li><a href="#" class="text-muted">Contact Us</a></li>
+                    </ul>
+                </div>
+
+                <!-- Our Services -->
+                <div class="col-md-3 mb-4">
+                    <h5 class="text-uppercase">Our Services</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#" class="text-muted">Unrefined Gold Doré Bars</a></li>
+                        <li><a href="#" class="text-muted">Gold Bullion Bars</a></li>
+                        <li><a href="#" class="text-warning">Warehousing</a></li>
+                    </ul>
+                </div>
+
+                <!-- Contact Details -->
+                <div class="col-md-3 mb-4">
+                    <h5 class="text-uppercase">Contact Details</h5>
+                    <ul class="list-unstyled">
+                        <li class="text-muted"><i class="fas fa-map-marker-alt"></i> Lorem Ipsum, Lorem Ipsum, Lorem
+                            Ipsum
+                        </li>
+                        <li class="text-muted"><i class="fas fa-phone"></i> +1 1234567890</li>
+                        <li class="text-muted"><i class="fas fa-envelope"></i> info@aurum.com</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="row align-items-center">
+                <div class="col-md-6 text-muted">
+                    © Aurum 79 2024. All Rights Reserved
+                </div>
+
+
+                <div class="col-md-6 text-md-end mt-sm-2">
+                    <a href="#" class="icon-link text-light me-3"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" class="icon-link text-light me-3"><i class="fab fa-twitter"></i></a>
+                    <a href="#" class="icon-link text-light"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Add active class to the current page link
+        document.addEventListener('DOMContentLoaded', function () {
+            const navLinks = document.querySelectorAll('.navbar-nav .nav-link');
+            const currentPath = window.location.pathname;
+
+            navLinks.forEach(link => {
+                if (link.getAttribute('href') === currentPath) {
+                    link.classList.add('active');
+                } else {
+                    link.classList.remove('active');
+                }
+            });
+        });
+    </script>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
+</body>
+
+
+</html>

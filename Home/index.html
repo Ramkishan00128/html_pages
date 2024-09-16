@@ -1,0 +1,539 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aurum 79</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!---Bootstrap Icon-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Font Awesome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Topbar -->
+    <header class="bg-dark ">
+        <div class="text-white p-2 mx-5 d-flex flex-sm-row justify-content-between align-items-center">
+            <div>
+                <span class="me-3">📞 +1234567890</span> | <span class="ms-3">✉️ info@aurum.com</span>
+            </div>
+            <div class="social-icons d-flex">
+                <a href="#" class="social-icon">
+                    <i class="fab fa-facebook-f"></i>
+                </a>
+                <a href="#" class="social-icon">
+                    <i class="fab fa-twitter"></i>
+                </a>
+                <a href="#" class="social-icon">
+                    <i class="fab fa-linkedin-in"></i>
+                </a>
+            </div>
+
+        </div>
+
+    </header>
+
+
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-white">
+        <div class="container-fluid mx-5 d-flex justify-content-between align-items-center">
+            <!-- Logo -->
+            <a class="navbar-brand" href="#">
+                <img src="../assets/images/aurum79.svg" alt="Aurum 79" width="100" class="img-fluid navbar-logo">
+            </a>
+    
+            <!-- Toggler Button (for mobile view) -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+    
+            <!-- Navbar Links and Menu -->
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <!-- Home -->
+                    <li class="nav-item">
+                        <a class="nav-link" href="/Home/index.html">Home</a>
+                    </li>
+    
+                    <!-- About Us -->
+                    <li class="nav-item">
+                        <a class="nav-link" href="/About/index.html">About Us</a>
+                    </li>
+    
+                    <!-- Products Dropdown -->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="/product/index.html" id="navbarDropdownProducts" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Products
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownProducts">
+                            <li><a class="dropdown-item" href="/product/index.html#Responsible_gold">Responsible gold</a></li>
+                            <li><a class="dropdown-item" href="/product/index.html#Kugerrands">Kugerrands</a></li>
+                            <li><a class="dropdown-item" href="/product/index.html#Minted_Bars">Minted Bars</a></li>
+                            <li><a class="dropdown-item" href="/product/index.html#Cast_Bars">Cast Bars - Gold </a></li>
+                            <li><a class="dropdown-item" href="/product/index.html#Bar_Weighting">Bar Weighting ≤ 1kg </a></li>
+                            <li><a class="dropdown-item" href="/product/index.html#Coin_Blanks ">Coin Blanks </a></li>
+                            <li><a class="dropdown-item" href="/product/index.html#Coins_and_Medallions">Coins and Medallions </a></li>
+                            <li><a class="dropdown-item" href="/product/index.html#Semi-Finished">Semi-Finished </a></li>
+                        </ul>
+                    </li>
+    
+                    <!-- Services Dropdown -->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="/service/index.html" id="navbarDropdownServices" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Services
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownServices">
+                            <li><a class="dropdown-item" href="/service/index.html#Sourcing">Sourcing</a></li>
+                            <li><a class="dropdown-item" href="/service/index.html#Refining">Refining</a></li>
+                            <li><a class="dropdown-item" href="/service/index.html#Smelting">Smelting</a></li>
+                            <li><a class="dropdown-item" href="/service/index.html#Fabrication">Fabrication</a></li>
+                            <li><a class="dropdown-item" href="/service/index.html#Value-Added_Products">Value-Added Products</a></li>
+                            <li><a class="dropdown-item" href="/service/index.html#Technical_Service">Technical Service</a></li>
+                            <li><a class="dropdown-item" href="/service/index.html#Vault_and_Logistics">Vault and Logistics</a></li>
+                        </ul>
+                    </li>
+    
+                    <!-- Customer Service Dropdown -->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="/customer/index.html" id="navbarDropdownCustomer" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Customer 
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownCustomer">
+                            <li><a class="dropdown-item" href="/customer/index.html#Partnership">Partnership</a></li>
+                            <li><a class="dropdown-item" href="/customer/index.html#Application">Application</a></li>
+                            <li><a class="dropdown-item" href="/customer/index.html#Gold_Requirement">Gold Requirement</a></li>
+                            <li><a class="dropdown-item" href="/customer/index.html#Customer_Feedback">Customer Feedback</a></li>
+                            <li><a class="dropdown-item" href="/customer/index.html#Useful_Links">Useful Links</a></li>
+                            <li><a class="dropdown-item" href="/customer/index.html#Retails_Sales_Pricing">Retails Sales Pricing</a></li>
+                            <li><a class="dropdown-item" href="/customer/index.html#Glossary Of Terms">Glossary Of Terms</a></li>
+                        </ul>
+                    </li>
+                </ul>
+    
+                <!-- Connect With Us Button -->
+                <a class="btn btn-black text-white ms-3" href="/contact/index.html">Connect With Us</a>
+            </div>
+        </div>
+    </nav>
+
+
+
+    <section class="container-fluid hero-section text-white d-flex align-items-center position-relative">
+       
+        <video autoplay muted loop playsinline preload="auto"
+            class="position-absolute top-0 start-0 w-100 h-100 object-fit-cover">
+            <source src="../assets/video/hero.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        <div class="container position-relative" style="z-index: 1;">
+            <div class="row">
+                <div class="col-lg-8 ">
+                    <div class="badge bg-color mb-3">Welcome To AURUM 79</div>
+                    <h1 class="display-4">Refining Excellence: Unveiling Pure Gold</h1>
+                    <p class="lead">
+                        At Aurum79 Refinery, we specialize in producing high-purity unrefined gold doré bars, sourced from
+                        trusted mines in Zimbabwe, Indonesia, and across Africa.
+                    </p>
+                    <div class="mt-4">
+                        <a href="#" class="btn btn-dark btn-lg me-3">Learn More</a>
+                        <a href="#" class="btn bg-color btn-lg">Contact Us</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="refinery-section py-5">
+        <div class="container">
+            <div class="row align-items-center">
+                <!-- Text Section -->
+                <div class="col-lg-6">
+                    <h2>Welcome To <span class="text-Color">Aurum79</span> Refinery</h2>
+                    <p>Aurum 79 refinery (Goldcoin venture) specialize in the production of unrefined gold doré bars,
+                        renowned for their high purity levels of 92%-96%. Our gold is derived from two prominent sources:
+                        Zimbabwe and Indonesia gold mine concessions. Additionally, we maintain a reliable network of
+                        suppliers across 12 African nations, with whom we have personally engaged through on-site visits
+                        with local miners and aggregators.</p>
+                    <p>Leveraging our established partnerships, we possess a formidable supply capacity up to 7,000
+                        kilograms per month. This impressive volume predominantly originates from Zimbabwe, Indonesia,
+                        Ghana, Burkina Faso, Guinea Conakry, Sierra Leone, Togo, Mali, Cote d'Ivoire, and South Africa.</p>
+                    <button class="btn btn-warning">MORE ABOUT US</button>
+                </div>
+    
+                <!-- Image Section -->
+                <div class="col-lg-6 position-relative text-center mt-4 mt-lg-0">
+                    <img src="../assets/images/images-l-1-1.png" alt="Hand Holding Gold" class="img-fluid main-img rounded">
+                    <img src="../assets/images/images-l-1-2.png" alt="Gold Bars"  class="img-fluid overlay-img rounded">
+                </div>
+            </div>
+    
+            <!-- Stats Section -->
+            <div class="row text-center mt-5">
+                <div class="col-md-3 col-6 mb-4">
+                    <div class="stats-card p-4 shadow-sm">
+                        <h3>7,000 Kg</h3>
+                        <p>Monthly Supply Capacity</p>
+                    </div>
+                </div>
+                <div class="col-md-3 col-6 mb-4">
+                    <div class="stats-card p-4 shadow-sm">
+                        <h3>96 %</h3>
+                        <p>Purity Levels of Gold Doré Bars</p>
+                    </div>
+                </div>
+                <div class="col-md-3 col-6 mb-4">
+                    <div class="stats-card p-4 shadow-sm">
+                        <h3>12 +</h3>
+                        <p>Trusted Supplier Network</p>
+                    </div>
+                </div>
+                <div class="col-md-3 col-6 mb-4">
+                    <div class="stats-card p-4 shadow-sm">
+                        <h3>24 K</h3>
+                        <p>Gold Bullion Purity</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="products-section py-5">
+        <div class="container">
+            <!-- Section Heading -->
+            <div class="row text-center mb-4">
+                <div class="col">
+                    <h2>Explore Our <span class="text-Color">Products</span></h2>
+                    <p>At Aurum79 Refinery, we offer reliable services tailored to meet diverse business needs.</p>
+                </div>
+            </div>
+    
+            <!-- Product Cards -->
+            <div class="row">
+                <!-- First Card -->
+                <div class="col-md-4 mb-4">
+                    <div class="card h-100 shadow-sm">
+                        <img src="../assets/images/Unrefine-1-300x200.webp" class="card-img-top" alt="Unrefined Gold Doré Bars">
+                        <div class="card-body">
+                            <h5 class="card-title">Unrefined Gold Doré Bars</h5>
+                            <ul class="list-unstyled">
+                                <li>• Description of the production and high purity levels (92%-96%).</li>
+                                <li>• Sourcing regions (Zimbabwe, Indonesia, and other African nations).</li>
+                                <li>• Supply capacity and reliability.</li>
+                            </ul>
+                        </div>
+                        <div class="card-footer border-top-0 text-center">
+                            <a href="#" class="btn btn-warning">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+    
+                <!-- Second Card -->
+                <div class="col-md-4 mb-4">
+                    <div class="card h-100 shadow-sm">
+                        <img src="../assets/images/image151204-qefk-400h.png" class="card-img-top" alt="Gold Bullion Bars">
+                        <div class="card-body">
+                            <h5 class="card-title">Gold Bullion Bars</h5>
+                            <ul class="list-unstyled">
+                                <li>• Description of the high-quality gold bullion bars (24 carat, 99.95%-99.99% purity).
+                                </li>
+                                <li>• Information about International Hallmarks.</li>
+                                <li>• Available weight options (1 kg and 12.5 kg).</li>
+                                <li>• Import and export details.</li>
+                            </ul>
+                        </div>
+                        <div class="card-footer border-top-0 text-center">
+                            <a href="#" class="btn btn-warning">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+    
+                <!-- Third Card -->
+                <div class="col-md-4 mb-4">
+                    <div class="card h-100 shadow-sm">
+                        <img src="../assets/images/Insurance-Logistics-300x210.webp" class="card-img-top" alt="Insurance & Logistics">
+                        <div class="card-body">
+                            <h5 class="card-title">Insurance & Logistics</h5>
+                            <ul class="list-unstyled">
+                                <li>• Overview of insurance coverage for gold trading activities.</li>
+                                <li>• Details about transit and storage insurance.</li>
+                                <li>• Partnerships with reputable logistics providers.</li>
+                            </ul>
+                        </div>
+                        <div class="card-footer border-top-0 text-center">
+                            <a href="#" class="btn btn-warning">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    
+            <!-- Explore More Button -->
+            <div class="row text-center">
+                <div class="col">
+                    <a href="#" class="btn btn-outline-warning mt-3">Explore More</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+<section class="bg-black">
+    <div class="container text-center info-section">
+    <h2 class="text-Color">Investor <span style="color: white;">Information</span></h2>
+    <p>We understand the importance of protecting your investments in the gold trade.<br>That's why we offer
+        comprehensive insurance coverage for our gold trading activities.</p>
+
+    <div class="row text-center mt-5 ">
+        <div class="col-md-4  mb-4">
+            <div class="info-card">
+                <i class="bi bi-shield-check"></i>
+                <h5>Investor & Lender Risk</h5>
+                <p>The application developed by Aurum79 significantly mitigates the risk for investors and lenders by
+                    providing a comprehensive tracking system for the physical gold throughout its journey from the
+                    source to the refinery. This ensures transparency and accountability at every step, reducing the
+                    potential risks associated with the investment or lending.</p>
+            </div>
+        </div>
+        <div class="col-md-4  mb-4">
+            <div class="info-card">
+                <i class="bi bi-bar-chart-line"></i>
+                <h5>Price Volatility</h5>
+                <p>To manage price volatility, AURUM79 adopts a strategic approach. We primarily pre-sell the gold to
+                    the buyer, offering a slight fixed discount off the LBMA rates. This agreement is based on a minimum
+                    one-year contract supply. By securing these pre-sale agreements in advance, we can negotiate the
+                    price and purchase terms with local aggregators, thereby minimizing price fluctuations.</p>
+            </div>
+        </div>
+        <div class="col-md-4  mb-4">
+            <div class="info-card">
+                <i class="bi bi-cash"></i>
+                <h5>Cash Management</h5>
+                <p>To ensure effective cash management, the buyer is required to provide a bank guarantee in the form of
+                    a Letter of Credit (L/C), Standby Letter of Credit (SBLC), or Escrow. This bank guarantee is
+                    uploaded onto our platform, and the settlement is facilitated via SWIFT based on the final assay
+                    report, which is verified on the ledgers.</p>
+            </div>
+        </div>
+    </div>
+    <button class="mt-4 connect-btn">CONNECT WITH US</button>
+    </div>
+</section>
+
+    
+<section class="supply-chain-section">
+    <div class="container">
+        <div class="row align-items-center">
+
+            <h2>Our <span class="text-Color">Supply</span> Chain</h2>
+
+
+            <div class="d-flex flex-column flex-md-row w-100 ">
+
+                <div class="w-100 w-md-50">
+
+                    <p>To ensure a reliable supply chain, we have established a robust network of trusted suppliers
+                        across
+                        12 African countries, comprising local miners and aggregators.Locally respected and
+                        internationally acclaimed, the Krugerrand is the most widely held and actively traded bullion
+                        coin
+                        in the world with over 60 million ounces sold over the last 50 years. A brainchild of the
+                        Chamber of Mines in South
+                        African in 1967 and produced by Rand Refinery and the SA Mint, the Krugerrand tells a powerful
+                        story of resilience over
+                        time and promises investors an attractive return.
+                    </p>
+                    <p>Expanding our reach beyond Africa, we have also developed a network of reliable suppliers in
+                        Asian
+                        countries.</p>
+                    <button class="btn btn-Color ">CONNECT WITH US</button>
+                </div>
+                <div class="w-100 w-md-50 d-flex justify-content-center mt-4 mt-md-0">
+                    <img src="../assets/images/Gold.webp" alt="Supply Chain Image"
+                        class="img-fluid rounded-left-corner">
+                </div>
+
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="partners-section ">
+    <div class="container py-5">
+        <div class="d-flex justify-content-between mx-4">
+            <div class=" mb-4 ">
+                <h2>Our <span class="text-Color">Partners</span></h2>
+                <p class="text-muted w-50">Together, we ensure the highest standards of quality, transparency, and
+                    reliability
+                    in the
+                    gold industry.</p>
+            </div>
+            <div class="text-center mt-4">
+                <a href="#" class="btn btn-Color text-white">View More</a>
+            </div>
+        </div>
+
+        <!-- <div class="row justify-content-center">
+            <div class="col-6 col-md-3 mb-4">
+                <div class="partner-logo p-3 bg-white shadow-sm">
+                    <img src="/assets/images/parthenr-1.jpg" alt="Lumberjacks" class="img-fluid">
+                </div>
+            </div>
+            <div class="col-6 col-md-3 mb-4">
+                <div class="partner-logo p-3 bg-white shadow-sm">
+                    <img src="/assets/images/Picture2.jpg" alt="Southern Port" class="img-fluid">
+                </div>
+            </div>
+            <div class="col-6 col-md-3 mb-4">
+                <div class="partner-logo p-3 bg-white shadow-sm">
+                    <img src="/assets/images/Picture3.jpg" alt="The Mountain" class="img-fluid">
+                </div>
+            </div>
+            <div class="col-6 col-md-3 mb-4">
+                <div class="partner-logo p-3 bg-white shadow-sm">
+                    <img src="/assets/images/Picture4.jpg" alt="Sophie" class="img-fluid">
+                </div>
+            </div>
+            <div class="col-6 col-md-3 mb-4">
+                <div class="partner-logo p-3 bg-white shadow-sm">
+                    <img src="/assets/images/Picture5.jpg" alt="Tennessee Hipster" class="img-fluid">
+                </div>
+            </div>
+        </div> -->
+<div class="row justify-content-center">
+    <div class="col-6 col-md-2 mb-4">
+        <div class="partner-logo p-3 bg-white shadow-sm">
+            <img src="/assets/images/parthenr-1.jpg" alt="Lumberjacks" class="img-fluid">
+        </div>
+    </div>
+    <div class="col-6 col-md-2 mb-4">
+        <div class="partner-logo p-3 bg-white shadow-sm">
+            <img src="/assets/images/Picture2.jpg" alt="Southern Port" class="img-fluid">
+        </div>
+    </div>
+    <div class="col-6 col-md-2 mb-4">
+        <div class="partner-logo p-3 bg-white shadow-sm">
+            <img src="/assets/images/Picture3.jpg" alt="The Mountain" class="img-fluid">
+        </div>
+    </div>
+    <div class="col-6 col-md-2 mb-4">
+        <div class="partner-logo p-3 bg-white shadow-sm">
+            <img src="/assets/images/Picture4.jpg" alt="Sophie" class="img-fluid">
+        </div>
+    </div>
+    <div class="col-6 col-md-2 mb-4">
+        <div class="partner-logo p-3 bg-white shadow-sm">
+            <img src="/assets/images/Picture5.jpg" alt="Tennessee Hipster" class="img-fluid">
+        </div>
+    </div>
+</div>
+
+    </div>
+</section>
+
+
+
+ 
+   
+
+    <footer class="footer bg-dark text-light py-5">
+        <div class="container">
+            <div class="row">
+                <!-- About Section -->
+                <div class="col-md-3 mb-4">
+                    <h5 class="text-uppercase">About AURUM 79</h5>
+                    <p class="text-muted">Aurum79 Refinery offers a seamless and secure gold trading experience. Whether
+                        you
+                        are looking to buy or sell gold, you can trust us to handle the insurance and logistics aspects
+                        with
+                        utmost professionalism.</p>
+                </div>
+
+                <!-- Useful Links -->
+                <div class="col-md-3 mb-4">
+                    <h5 class="text-uppercase">Useful Links</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#" class="text-muted">Home</a></li>
+                        <li><a href="#" class="text-muted">About Us</a></li>
+                        <li><a href="#" class="text-muted">Services</a></li>
+                        <li><a href="#" class="text-muted">Supply Chain</a></li>
+                        <li><a href="#" class="text-muted">Investor Information</a></li>
+                        <li><a href="#" class="text-muted">Contact Us</a></li>
+                    </ul>
+                </div>
+
+                <!-- Our Services -->
+                <div class="col-md-3 mb-4">
+                    <h5 class="text-uppercase">Our Services</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#" class="text-muted">Unrefined Gold Doré Bars</a></li>
+                        <li><a href="#" class="text-muted">Gold Bullion Bars</a></li>
+                        <li><a href="#" class="text-warning">Warehousing</a></li>
+                    </ul>
+                </div>
+
+                <!-- Contact Details -->
+                <div class="col-md-3 mb-4">
+                    <h5 class="text-uppercase">Contact Details</h5>
+                    <ul class="list-unstyled">
+                        <li class="text-muted"><i class="fas fa-map-marker-alt"></i> Lorem Ipsum, Lorem Ipsum, Lorem
+                            Ipsum
+                        </li>
+                        <li class="text-muted"><i class="fas fa-phone"></i> +1 1234567890</li>
+                        <li class="text-muted"><i class="fas fa-envelope"></i> info@aurum.com</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="row align-items-center">
+                <div class="col-md-6 text-muted">
+                    © Aurum 79 2024. All Rights Reserved
+                </div>
+                
+
+                <div class="col-md-6 text-md-end mt-sm-2">
+                    <a href="#" class="icon-link text-light me-3"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" class="icon-link text-light me-3"><i class="fab fa-twitter"></i></a>
+                    <a href="#" class="icon-link text-light"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+
+            </div>
+        </div>
+    </footer>
+
+
+<script>
+    // Add active class to the current page link
+    document.addEventListener('DOMContentLoaded', function () {
+        const navLinks = document.querySelectorAll('.navbar-nav .nav-link');
+        const currentPath = window.location.pathname;
+
+        navLinks.forEach(link => {
+            if (link.getAttribute('href') === currentPath) {
+                link.classList.add('active');
+            } else {
+                link.classList.remove('active');
+            }
+        });
+    });
+</script>
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
+</body>
+
+
+</html>

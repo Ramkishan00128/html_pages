@@ -1,0 +1,553 @@
+/* Topbar */
+header {
+  font-size: 0.9rem;
+}
+
+/* Navbar */
+.navbar {
+  padding: 1rem;
+}
+
+.navbar-brand img {
+  height: 60px;
+}
+.text-Color {
+  color: #d0b824;
+}
+
+.bg-color {
+  background-color: #d0b824;
+  color: #fff;
+}
+
+.btn-Color {
+  text-decoration: none;
+  color: white;
+  margin: 0 5px; /* Reduce margin to avoid overflow */
+  width: 170px; /* Adjust width for better fit */
+  height: 45px; /* Adjust height for better fit */
+  background-color: #d0b824;
+  border-radius: 6px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.3s ease;
+}
+
+/* About Us Section */
+h2 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+}
+
+.lead {
+  font-size: 1.2rem;
+  line-height: 1.6;
+}
+
+/* img {
+  border-radius: 10px;
+} */
+
+/* Supply Chain Section */
+.bg-light {
+  background-color: #f8f9fa !important;
+}
+
+.social-icons a {
+  text-decoration: none;
+  color: white;
+  margin: 0 5px; /* Reduce margin to avoid overflow */
+  width: 30px; /* Adjust width for better fit */
+  height: 30px; /* Adjust height for better fit */
+  background-color: #d0b824;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.3s ease;
+}
+
+.social-icons a:hover {
+  background-color: #d0b824;
+}
+
+.social-icons i {
+  font-size: 0.875rem; /* Reduce font size for better fit */
+}
+
+/* DropDown Icon*/
+.navbar-nav .nav-item .nav-link:hover,
+.navbar-nav .nav-item.active .nav-link {
+  color: #d0b824 !important; /* Yellow color on hover or active */
+}
+
+.navbar-nav li a {
+  color: #000;
+}
+
+/* Dropdown menu hover effect */
+.dropdown-menu {
+  display: none;
+}
+
+.dropdown:hover .dropdown-menu {
+  display: block;
+  margin-top: 0; /* Ensures dropdown doesn't have an offset */
+}
+
+/* Custom button styles */
+.navbar .btn-dark {
+  background-color: #000;
+  border-color: #000;
+}
+
+.navbar .btn-dark:hover {
+  background-color: #000;
+  color: #000;
+}
+
+/* Ensure the logo scales correctly */
+.navbar-logo {
+  width: 200px;
+  /* max-width: 150px; */
+  height: auto;
+}
+
+/* Custom styles for the navbar on small screens */
+.navbar {
+  padding: 0.75rem 1rem;
+}
+
+/* Fix spacing and avoid button overlap in responsive view */
+.navbar-toggler {
+  margin-left: auto;
+}
+
+.nav-link.active {
+  font-weight: bold;
+  color: #d0b824; /* Make the active link black */
+}
+
+@media (max-width: 768px) {
+  .navbar-logo {
+    width: 100px; /* Slightly smaller for tablets and medium screens */
+  }
+}
+
+/* Button styling for 'Connect With Us' */
+.btn-black {
+  background-color: #000;
+  border: none;
+  padding: 10px 20px;
+  transition: background-color 0.3s ease;
+}
+
+.btn-black:hover {
+  background-color: #444;
+}
+
+/*Hero Section*/
+.hero-section {
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  position: relative;
+}
+
+.hero-section::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5); /* Optional dark overlay */
+}
+
+.hero-section h1 {
+  font-size: 3rem;
+  line-height: 1.2;
+  font-weight: bold;
+}
+
+.hero-section p {
+  font-size: 1.2rem;
+  margin-top: 20px;
+  max-width: 600px;
+}
+
+.hero-section .btn {
+  padding: 15px 30px;
+  font-size: 1rem;
+  border-radius: 50px;
+}
+
+.hero-section .badge {
+  padding: 10px 20px;
+  font-size: 1rem;
+  border-radius: 30px;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+  .hero-section h1 {
+    font-size: 2.5rem;
+  }
+
+  .hero-section p {
+    font-size: 1rem;
+  }
+
+  .hero-section .btn {
+    font-size: 0.9rem;
+    padding: 10px 20px;
+  }
+}
+
+/*Refinary section*/
+.refinery-section {
+  background-color: #fff;
+}
+
+.refinery-section h2 span {
+  color: #d4af37; /* Gold color */
+}
+
+.main-img {
+  width: 80%;
+  position: relative;
+  z-index: 1;
+}
+
+.overlay-img {
+  width: 70%;
+  position: absolute;
+  top: 5%;
+  right: 18%;
+  z-index: 2;
+  /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
+}
+
+.stats-card {
+  background-color: #fff;
+  border-top: 4px solid #d4af37; /* Gold border on top */
+  border-bottom: 4px solid #ff0000; /* Red border on bottom */
+}
+.partner-logo {
+  height: 100%; /* Ensures full height for the container */
+  display: flex;
+  align-items: center; /* Vertically centers the image */
+  justify-content: center; /* Horizontally centers the image */
+  min-height: 150px; /* Add a minimum height for the containers (adjust as needed) */
+}
+
+.partner-logo img {
+  max-height: 100%; /* Ensures the image doesn't exceed container height */
+  max-width: 100%; /* Ensures the image doesn't exceed container width */
+  object-fit: contain; /* Ensures that images are scaled properly without distortion */
+}
+
+@media (max-width: 1000px) {
+  .overlay-img {
+    display: none;
+  }
+}
+
+@media (max-width: 767px) {
+  .main-img,
+  .overlay-img {
+    width: 100%;
+    position: relative;
+    right: auto;
+    top: auto;
+  }
+
+  .overlay-img {
+    margin-top: -30px;
+  }
+}
+
+/*Product Section*/
+.products-section {
+  background-color: #f5f5f5;
+}
+
+.products-section h2 span {
+  color: #d4af37; /* Gold color */
+}
+
+.card {
+  border: none;
+}
+
+.card-title {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #333;
+}
+
+.card-footer {
+  background-color: transparent;
+}
+
+.btn-warning {
+  background-color: #d4af37;
+  border: none;
+  color: #fff;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.btn-warning:hover {
+  background-color: #c49a31;
+}
+
+.btn-outline-warning {
+  border-color: #d4af37;
+  color: #d4af37;
+  font-weight: bold;
+  transition: all 0.3s ease;
+}
+
+.btn-outline-warning:hover {
+  background-color: #d4af37;
+  color: #fff;
+}
+
+/*Investor Section*/
+.info-section {
+  padding: 50px 0;
+  background-color: #000;
+  color: #fff;
+}
+.info-card {
+  background-color: #1b1b1b;
+  padding: 30px;
+  border-radius: 10px;
+  text-align: center;
+}
+.info-card h5 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-weight: bold;
+  color: #ffd700;
+}
+.info-card p {
+  color: #ccc;
+}
+.info-card i {
+  font-size: 40px;
+  color: #ffd700;
+}
+.connect-btn {
+  background-color: #ffd700;
+  color: black;
+  border: none;
+  font-weight: bold;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+.connect-btn:hover {
+  background-color: #ffc107;
+}
+.title-text {
+  font-size: 30px;
+  color: #ffd700;
+}
+
+/*Supply chain section*/
+.supply-chain-section {
+  padding: 50px 0;
+  background-color: #fff;
+}
+
+.supply-chain-section h2 {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.supply-chain-section p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  position: relative;
+  padding-left: 30px;
+  margin-bottom: 20px;
+}
+
+.supply-chain-section p::before {
+  content: "\2714"; /* Unicode for checkmark */
+  position: absolute;
+  left: 0;
+  top: 0;
+  color: red;
+  font-size: 1.2rem;
+  margin-right: 10px;
+}
+
+.supply-chain-section img {
+  /* border-radius: 20px; */
+  border-top-left-radius: 100px;
+  border-bottom-left-radius: 100px;
+}
+
+.partners-section {
+  background-color: #f5f5f5;
+}
+
+@media (max-width: 767px) {
+  .card-img-top {
+    height: 200px;
+    object-fit: cover;
+  }
+}
+
+/*Footer Section      */
+.footer {
+  background-color: #222;
+  padding: 40px 0;
+}
+
+.footer h5 {
+  border-bottom: 1px solid #444;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+  font-size: 1.1rem;
+  color: #fff; /* Ensure headings are visible */
+}
+
+.footer ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.footer ul li {
+  margin-bottom: 10px;
+}
+
+.footer ul li a {
+  text-decoration: none;
+  color: #aaa !important; /* Ensure initial color is applied */
+  transition: color 0.3s ease;
+}
+
+.footer ul li a:hover {
+  color: #d0b824 !important; /* Ensure hover color is applied */
+}
+
+.footer .text-warning {
+  color: #d0b824 !important;
+}
+
+.footer .text-muted {
+  color: #999 !important;
+}
+
+.footer i {
+  margin-right: 8px;
+  color: #ccc !important; /* Ensure initial color is applied */
+  transition: color 0.3s ease;
+}
+
+.footer i:hover {
+  color: #d0b824 !important; /* Ensure hover color is applied */
+}
+
+.footer a {
+  color: #ccc !important; /* Ensure initial color is applied */
+  transition: color 0.3s ease;
+}
+
+.footer a:hover {
+  color: #d0b824 !important; /* Ensure hover color is applied */
+}
+
+.footer .fab {
+  font-size: 1.2rem;
+  transition: transform 0.3s ease;
+}
+
+.footer .fab:hover {
+  color: #d0b824 !important; /* Ensure hover color is applied */
+  transform: scale(1.2); /* Zoom-in effect */
+}
+
+.footer .me-3 {
+  margin-right: 1rem !important;
+}
+
+.icon-link {
+  display: inline-block; /* Ensures the border wraps the content */
+  padding: 10px 15px; /* Padding around the icons */
+  border: 2px solid #fff; /* White border, you can change color */
+  border-radius: 4px; /* Optional: make corners rounded */
+  text-align: center; /* Center the icon inside the border */
+  transition: background-color 0.3s ease, border-color 0.3s ease;
+}
+
+.icon-link:hover {
+  background-color: #fff; /* Change background on hover */
+  color: #000; /* Change icon color on hover */
+  border-color: #000; /* Change border color on hover */
+}
+
+.icon-link i {
+  font-size: 1.2rem; /* Adjust icon size if needed */
+}
+/* Adjust margin for responsiveness */
+/* @media (max-width: 767.98px) {
+  .d-flex > .w-100 {
+    margin-bottom: 20px;
+  }
+} */
+
+@media (max-width: 1100px) {
+  .supply-chain-section img {
+    /* border-radius: 20px; */
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+  }
+}
+
+@media (min-width: 768px) {
+  .rounded-left-corner {
+    max-width: 90%; /* Slightly larger image, but not breaking layout */
+  }
+}
+
+@media (max-width: 768px) {
+  .supply-chain-section .col-md-6 {
+    text-align: center;
+  }
+}
+
+/* Custom margin for text on larger screens */
+@media (min-width: 768px) {
+  .about-section .me-lg-4 {
+    margin-right: 2rem;
+  }
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+  .social-icons {
+    justify-content: center;
+    margin-top: 10px;
+  }
+
+  /* Reduce margin for small screens */
+  .social-icons a {
+    margin: 0 3px;
+    width: 28px; /* Reduce width */
+    height: 28px; /* Reduce height */
+  }
+
+  .me-3 {
+    margin-right: 0.5rem !important;
+  }
+
+  .ms-3 {
+    margin-left: 0.5rem !important;
+  }
+}
